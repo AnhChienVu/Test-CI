@@ -63,6 +63,6 @@ jobs:
         working-directory: ./client
         run: npm run lint
 
-      - naame: Build Frontend
+      - name: Build Frontend
         working-directory: ./client
         run: npm run build
